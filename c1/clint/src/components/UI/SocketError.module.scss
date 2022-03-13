@@ -1,0 +1,36 @@
+.error-container {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    padding: 10rem 2rem;
+    margin-top: 4rem;
+    box-shadow: 0 2rem 2rem rgba(0,0,0,.25);
+    border-radius: 1.5rem;
+    animation: moveUp 1s ease-out;
+
+    p {
+        text-align: center;
+        font-size: 2.2rem;
+        margin-top: 3.5rem;
+    }
+    .error-text {
+        text-transform: uppercase;
+    }
+
+    .error-code {
+        color: rgba(245, 49, 49, .8);
+        font-weight: 900;
+    }
+
+}
+
+@keyframes moveUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-10rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

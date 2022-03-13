@@ -1,0 +1,31 @@
+.stock-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    vertical-align: bottom;
+    padding: 1rem 1rem .5rem;
+    border-top: .2rem rgba(50, 50, 50, .2) solid;
+    width: 100%;
+
+    .stock-name {
+        text-transform: uppercase;
+    }
+    
+    .stock-value {
+        font-weight: 900;
+        color: white;
+    }
+
+    .low {
+        background: rgba(245, 74, 59, 1);
+    }
+    
+    .high {
+        background: rgba(22, 222, 72, 1);
+    }
+
+    p {
+        padding: .5rem 3rem;
+        border-radius: .6rem;
+    }
+}

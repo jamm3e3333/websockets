@@ -1,0 +1,9 @@
+.stock-column--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    vertical-align: bottom;
+    padding: 2rem 1.5rem .5rem 1.5rem;
+    width: 100%;
+    font-size: 1.36rem;
+}
